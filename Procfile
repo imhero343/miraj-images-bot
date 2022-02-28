@@ -1,1 +1,1 @@
-clock: python reqeust.py
+clock: python pilimage.py
