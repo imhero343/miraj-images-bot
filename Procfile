@@ -1,1 +1,1 @@
-clock: python pilimage.py
+worker: python pilimage.py
