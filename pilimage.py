@@ -75,7 +75,7 @@ def verifyUser(message):
     if ratio == 1 or (ratio >= 0.9 and ratio <= 1.1):
         imgProcessor('square')
     new = open('end.png', 'rb')
-    bot.send_photo(message.chat.id, new, timeout=100)
+    bot.send_photo(message.chat.id, new, timeout=10)
 
 
 bot.infinity_polling()
